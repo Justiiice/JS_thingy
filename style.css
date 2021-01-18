@@ -1,12 +1,33 @@
-body {
- background-color: black;
+body{
+background: rgb(63,94,251);
+background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
-h1 {
- color: lightblue;
- text-align: center;
- font: italic 200% fantasy;
+ul{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  list-style: square;
 }
-ul {
- color: hotpink;
- border: 3px groove white;
+section{
+  width: 10%;
+  margin: auto;
+}
+button{
+  color: white;
+  background-color: inherit;
+  padding: 0.35em 1.2em;
+  margin: 0.4em;
+  border: 0.1em solid white;
+  border-radius: 0.4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+button:hover{
+  color: hotpink;
+  background-color: white;
+  cursor: pointer;
 }
