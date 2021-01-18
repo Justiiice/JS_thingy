@@ -1,0 +1,12 @@
+body {
+ background-color: black;
+}
+h1 {
+ color: lightblue;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+ul {
+ color: hotpink;
+ border: 3px groove white;
+}
