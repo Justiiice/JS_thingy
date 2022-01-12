@@ -13,3 +13,12 @@ function reset(){
   array = [...staticArray];
   list.innerHTML = "";
 }
+
+var thing;
+let func = (str = 'no arg') => {
+  console.log(str);
+}
+
+let a = 5
+console.log(a++);
+console.log(++a);
