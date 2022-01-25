@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&family=Oswald:wght@200;500&display=swap");
+
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  display: grid;
+  height: 98vh;
+}
+ul {
+
+  color: white;
+  font-weight: 100;
+  width: 100px;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
+h1 {
+  margin: auto;
+  font-size: 300%;
+  font-weight: 200;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: white;
+}
+section {
+  width: 200px;
+  height: 200px;
+  margin: -5em auto;
+  background-color: rgba(80, 80, 80, 0.2);
+  padding: 2em;
+  border-radius: 1em;
+  position: relative;
+}
+div {
+  position: absolute;
+  bottom: 10;
+}
+button {
+  color: white;
+  background-color: rgb(250, 250, 250, 0.2);
+  padding: 0.35em 1.2em;
+  margin: 0.4em;
+  border: 0.1em solid white;
+  border-radius: 0.4em;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+button:hover {
+  color: hotpink;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}

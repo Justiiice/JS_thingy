@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba1e91dcd1.js" crossorigin="anonymous"></script>
+    <title>////</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <section id="time">
+            <h1 id="clock"></h1>
+            <h2 id="week"></h2>
+        </section>
+
+        <section>
+            <h1 id="weather">hey</h1>
+        </section>
+
+        <section id="main">
+            <script>
+                const pagesIlike = [
+                    { n: "github", f: "fab", l: "https://github.com/emilboe" },
+                    { n: "youtube", f: "fab", l: "https://youtube.com" },
+                    { n: "calendar-alt", f: "fas", l: "https://calendar.google.com/calendar/u/0/r" },
+                    { n: "twitter", f: "fab", l: "https://twitter.com/home" },
+                    { n: "envelope", f: "fas", l: "https://outlook.office.com/mail/inbox" },
+                    { n: "tumblr", f: "fab", l: "https://www.tumblr.com/dashboard" }
+                ]
+                pagesIlike.map(x =>
+                    document.getElementById('main').innerHTML += `<span class="card">
+                        <a class="${x.f} fa-${x.n} icon" href="${x.l}"></a>
+                    </span>`)
+            </script>
+        </section>
+
+        <section id="lists">
+            <ul class="list">
+                <li>more links</li>
+                <li>here somewhere</li>
+            </ul>
+            <ul class="list">
+                <li>maybe separated</li>
+                <li>or maybe not</li>
+            </ul>
+        </section>
+    </div>
+</body>
+<script src="functions.js"></script>
+
+</html>

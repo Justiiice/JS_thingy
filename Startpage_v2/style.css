@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&family=Josefin+Sans:wght@200&family=Oswald:wght@200;500&family=Outfit:wght@200&family=Roboto+Mono:wght@100;400&display=swap");
+
+body {
+    background-image: url("ghibli.jpg");
+    background-repeat: no-repeat;
+    bottom: 0;
+    background-size: cover;
+    height: 97vh;
+    display: grid;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+.container {
+    background: rgba(27, 48, 68, 0.55);
+    border-radius: 1em;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". ."
+        ". .";
+}
+
+section {
+    margin: auto;
+}
+#time {
+    text-align: center;
+    color: rgb(201, 224, 228);
+    font-size: 2em;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.397);
+}
+#clock {
+    font-size: 4em;
+    margin-bottom: -1.5rem;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2em 2em;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+}
+.card {
+    background: rgba(30, 30, 34, 0.9);
+    border-radius: 0.6em;
+    box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 1em;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.card:hover {
+    transform: translate(0, -5px);
+    box-shadow: 2px 2px 20px rgb(0, 0, 0, 0.4);
+}
+.icon {
+    font-size: 4em;
+    padding: 0.7em 1.2em;
+    background-image: linear-gradient(to right, white 0%, rgb(247, 233, 255) 40%, rgb(189, 75, 255) 80%, rgb(33, 165, 226) 100%);
+    background-size: 300%;
+    background-position: left;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all ease-in-out 0.3s;
+}
+.icon:hover {
+    background-position: right;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#lists {
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+}
+.list {
+    list-style: none;
+}
