@@ -19,12 +19,13 @@ a {
     text-decoration: none;
     color: white;
     background: linear-gradient(to right, rgba(0, 255, 255, 0.4), rgba(0, 140, 255, 0.4));
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
     padding: 1em;
-    border-radius: .3em;
-    transition: all ease-in-out .2s;
+    border-radius: 0.3em;
+    transition: all ease-in-out 0.2s;
 }
-a:hover{
-    transform: translate(5px, -2px);
+a:hover {
+    transform: translate(10px, 0);
     background-color: rgba(0, 255, 255, 0.7);
 }
