@@ -18,13 +18,13 @@ section {
 a {
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 255, 255, 0.4);
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.4), rgba(0, 140, 255, 0.4));
     margin-bottom: 1em;
     padding: 1em;
     border-radius: .3em;
     transition: all ease-in-out .2s;
 }
 a:hover{
-    transform: translate(2px, -5px);
+    transform: translate(5px, -2px);
     background-color: rgba(0, 255, 255, 0.7);
 }
